@@ -16,7 +16,7 @@ public class WriteCurrentTimeSchedule {
     public void writeCurrentTime() {
         Date   now       = new Date();
         String nowString = df.format(now);
-        System.out.println("Now is: " + nowString);
+        System.out.println("Now is:::: " + nowString);
     }
 
 }
